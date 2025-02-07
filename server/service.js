@@ -1,7 +1,7 @@
 const QRCode = require('qrcode');
 
 exports.formatData = (data) => {
-	const qrCodeText = `Product ID: ${data.id}, Price: $${data.price}`;
+	const qrCodeText = `Product ID: ${data.id}, Price: ${data.price}`;
 	return qrCodeText;
 };
 
